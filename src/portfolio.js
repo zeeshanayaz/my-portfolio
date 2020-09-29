@@ -32,8 +32,8 @@ const skillsSection = {
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -152,9 +152,9 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "578af8685b3ed225acab88052a78164ab2606445" ,//process.env.REACT_APP_GITHUB_TOKEN
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "zeeshanayaz", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -270,7 +270,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "zeeshanayaz11"//Replace "twitter" with your twitter username without @
+  userName: "zeeshanayaz11"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
