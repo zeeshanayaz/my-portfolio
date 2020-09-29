@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-import { Fade, Slide, Zoom } from 'react-reveal';
+import { Fade, Slide} from 'react-reveal';    //, Zoom
 import './EducationCard.css';
 
 export default function EducationCard({ school }) {
