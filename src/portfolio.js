@@ -3,7 +3,7 @@
 const greeting = {
   username: "Muhammad Zeeshan",
   title: "Hi all, I'm Zeeshan",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Mobile applications with Native / Reactjs / Flutter and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building MOBILE APPLICATIONS with Native / Reactjs / Flutter and some other cool libraries and frameworks."),
   resumeLink: "https://stackoverflow.com/story/zeeshanayaz"
 };
 
